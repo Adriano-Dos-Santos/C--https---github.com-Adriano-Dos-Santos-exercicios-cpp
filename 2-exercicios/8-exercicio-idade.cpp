@@ -1,3 +1,7 @@
+//Fazer um programa para ler o nome e idade de duas pessoas. Ao final mostrar uma mensagem com os 
+//nomes e a idade média entre essas pessoas, com uma casa decimal
+
+
 #include <iostream>
 #include <iomanip>
 #include <string>
@@ -24,6 +28,6 @@ int main () {
 
     media = (idade1 + idade2)/2;
 
-    cout << "Media das idades: " << media; 
+    cout << "Media das idades: " << fiex << setprecision(1) media; 
 
 }   

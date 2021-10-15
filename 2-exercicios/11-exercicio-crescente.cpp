@@ -1,3 +1,6 @@
+//ler dois numeros e dizer se eles foram digitados em ordem crescente ou decrescente
+
+
 #include <iostream> 
 
 using namespace std;
